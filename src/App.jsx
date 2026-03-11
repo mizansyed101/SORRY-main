@@ -24,7 +24,7 @@ function App() {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat scale-105 fixed"
         style={{ 
-          backgroundImage: "url('/sunflower-bg.png')",
+          backgroundImage: `url('${import.meta.env.BASE_URL}sunflower-bg.png')`,
           filter: "brightness(0.55) contrast(1.1) blur(4px)" 
         }}
       />
